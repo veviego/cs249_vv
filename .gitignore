@@ -1,2 +1,11 @@
 .DS_Store
 *~
+*.cache
+*.vagrant/
+.Xauthority*
+.bash_history
+.bashrc
+.profile
+.python_history
+.ros/log*
+.viminfo

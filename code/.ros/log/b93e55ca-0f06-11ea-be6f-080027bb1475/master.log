@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2019-11-24 22:06:54,558: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-11-24 22:06:54,559: Starting ROS Master Node
+[xmlrpc][INFO] 2019-11-24 22:06:54,560: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-11-24 22:06:54,560: Started XML-RPC server [http://vagrant:11311/]
+[rosmaster.master][INFO] 2019-11-24 22:06:54,560: Master initialized: port[11311], uri[http://vagrant:11311/]
+[xmlrpc][INFO] 2019-11-24 22:06:54,561: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-11-24 22:06:54,600: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-11-24 22:06:54,602: +PARAM [/roslaunch/uris/host_vagrant__33955] by /roslaunch
+[rosmaster.master][INFO] 2019-11-24 22:06:54,634: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-11-24 22:06:54,638: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-11-24 22:06:54,650: +SERVICE [/rosout/get_loggers] /rosout http://vagrant:38299/
+[rosmaster.master][INFO] 2019-11-24 22:06:54,650: +SERVICE [/rosout/set_logger_level] /rosout http://vagrant:38299/
+[rosmaster.master][INFO] 2019-11-24 22:06:54,653: +PUB [/rosout_agg] /rosout http://vagrant:38299/
+[rosmaster.master][INFO] 2019-11-24 22:06:54,656: +SUB [/rosout] /rosout http://vagrant:38299/
+[rosmaster.master][INFO] 2019-11-24 22:07:05,770: -PUB [/rosout_agg] /rosout http://vagrant:38299/
+[rosmaster.master][INFO] 2019-11-24 22:07:05,771: -SUB [/rosout] /rosout http://vagrant:38299/
+[rosmaster.master][INFO] 2019-11-24 22:07:05,772: -SERVICE [/rosout/get_loggers] /rosout rosrpc://vagrant:52169
+[rosmaster.master][INFO] 2019-11-24 22:07:05,772: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://vagrant:52169
+[rosmaster.main][INFO] 2019-11-24 22:07:05,885: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-11-24 22:07:05,886: stopping master...
+[rospy.core][INFO] 2019-11-24 22:07:05,886: signal_shutdown [atexit]

@@ -1,0 +1,83 @@
+[roslaunch][INFO] 2019-11-24 22:06:54,057: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-11-24 22:06:54,068: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-11-24 22:06:54,069: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2019-11-24 22:06:54,069: roslaunch env is {'ROS_DISTRO': 'melodic', 'SSH_CLIENT': '10.0.2.2 55538 22', 'LOGNAME': 'vagrant', 'USER': 'vagrant', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'HOME': '/home/vagrant', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'LANGUAGE': 'en_US:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ROS_LOG_FILENAME': '/home/vagrant/.ros/log/b93e55ca-0f06-11ea-be6f-080027bb1475/roslaunch-vagrant-2347.log', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'XDG_SESSION_ID': '3', '_': '/opt/ros/melodic/bin/roscore', 'SSH_TTY': '/dev/pts/0', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'SHLVL': '1', 'PWD': '/home/vagrant', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/vagrant', 'SSH_CONNECTION': '10.0.2.2 55538 10.0.2.15 22'}
+[roslaunch][INFO] 2019-11-24 22:06:54,070: starting in server mode
+[roslaunch.parent][INFO] 2019-11-24 22:06:54,070: starting roslaunch parent run
+[roslaunch][INFO] 2019-11-24 22:06:54,071: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-11-24 22:06:54,356: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,356: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,357: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,357: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-11-24 22:06:54,358: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-11-24 22:06:54,358: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-11-24 22:06:54,359: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-11-24 22:06:54,359: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-24 22:06:54,360: Started XML-RPC server [http://vagrant:33955/]
+[xmlrpc][INFO] 2019-11-24 22:06:54,360: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-11-24 22:06:54,372: started roslaunch server http://vagrant:33955/
+[roslaunch.parent][INFO] 2019-11-24 22:06:54,373: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-11-24 22:06:54,375: master.is_running[http://vagrant:11311/]
+[roslaunch][INFO] 2019-11-24 22:06:54,377: auto-starting new master
+[roslaunch][INFO] 2019-11-24 22:06:54,377: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2019-11-24 22:06:54,378: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,378: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,379: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2019-11-24 22:06:54,379: process[master]: starting os process
+[roslaunch][INFO] 2019-11-24 22:06:54,380: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/vagrant/.ros/log/b93e55ca-0f06-11ea-be6f-080027bb1475/master.log']]
+[roslaunch][INFO] 2019-11-24 22:06:54,381: process[master]: cwd will be [/home/vagrant/.ros]
+[roslaunch][INFO] 2019-11-24 22:06:54,384: process[master]: started with pid [2357]
+[roslaunch][INFO] 2019-11-24 22:06:54,385: master.is_running[http://vagrant:11311/]
+[roslaunch][INFO] 2019-11-24 22:06:54,489: master.is_running[http://vagrant:11311/]
+[roslaunch][INFO] 2019-11-24 22:06:54,590: master.is_running[http://vagrant:11311/]
+[roslaunch][INFO] 2019-11-24 22:06:54,594: master.is_running[http://vagrant:11311/]
+[roslaunch][INFO] 2019-11-24 22:06:54,595: ROS_MASTER_URI=http://vagrant:11311/
+[roslaunch][INFO] 2019-11-24 22:06:54,598: setting /run_id to b93e55ca-0f06-11ea-be6f-080027bb1475
+[roslaunch][INFO] 2019-11-24 22:06:54,601: setting /roslaunch/uris/host_vagrant__33955' to http://vagrant:33955/
+[roslaunch][INFO] 2019-11-24 22:06:54,603: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2019-11-24 22:06:54,604: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://vagrant:11311/]
+[roslaunch][INFO] 2019-11-24 22:06:54,604: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'SSH_CLIENT': '10.0.2.2 55538 22', 'LOGNAME': 'vagrant', 'USER': 'vagrant', 'HOME': '/home/vagrant', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'CMAKE_PREFIX_PATH': '/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/vagrant/.ros/log/b93e55ca-0f06-11ea-be6f-080027bb1475/roslaunch-vagrant-2347.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'LANGUAGE': 'en_US:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/opt/ros/melodic/lib', 'ROS_MASTER_URI': 'http://vagrant:11311/', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/melodic/share', 'XDG_SESSION_ID': '3', '_': '/opt/ros/melodic/bin/roscore', 'SSH_TTY': '/dev/pts/0', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'SHLVL': '1', 'PWD': '/home/vagrant', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1', 'MAIL': '/var/mail/vagrant', 'SSH_CONNECTION': '10.0.2.2 55538 10.0.2.15 22'}]
+[roslaunch][INFO] 2019-11-24 22:06:54,614: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2019-11-24 22:06:54,614: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,615: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,615: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2019-11-24 22:06:54,615: ... registered process [rosout-1]
+[roslaunch][INFO] 2019-11-24 22:06:54,615: process[rosout-1]: starting os process
+[roslaunch][INFO] 2019-11-24 22:06:54,616: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/vagrant/.ros/log/b93e55ca-0f06-11ea-be6f-080027bb1475/rosout-1.log']]
+[roslaunch][INFO] 2019-11-24 22:06:54,617: process[rosout-1]: cwd will be [/home/vagrant/.ros]
+[roslaunch][INFO] 2019-11-24 22:06:54,621: process[rosout-1]: started with pid [2368]
+[roslaunch][INFO] 2019-11-24 22:06:54,622: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2019-11-24 22:06:54,623: load_parameters starting ...
+[roslaunch][INFO] 2019-11-24 22:06:54,639: ... load_parameters complete
+[roslaunch][INFO] 2019-11-24 22:06:54,640: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-11-24 22:06:54,640: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-11-24 22:06:54,641: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140470529324800)>
+[roslaunch.parent][INFO] 2019-11-24 22:06:54,641: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-11-24 22:06:54,642: spin
+[roslaunch.pmon][INFO] 2019-11-24 22:07:05,423: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140470529324800)>
+[roslaunch.pmon][INFO] 2019-11-24 22:07:05,467: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140470529324800)>
+[roslaunch.pmon][INFO] 2019-11-24 22:07:05,468: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140470529324800)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fc1d8086a90>, <roslaunch.nodeprocess.LocalProcess object at 0x7fc1d8086f10>]
+[roslaunch.pmon][INFO] 2019-11-24 22:07:05,473: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2019-11-24 22:07:05,473: [rosout-1] killing on exit
+[roslaunch][INFO] 2019-11-24 22:07:05,475: process[rosout-1]: killing os process with pid[2368] pgid[2368]
+[roslaunch][INFO] 2019-11-24 22:07:05,476: [rosout-1] sending SIGINT to pgid [2368]
+[roslaunch][INFO] 2019-11-24 22:07:05,477: [rosout-1] sent SIGINT to pgid [2368]
+[roslaunch][INFO] 2019-11-24 22:07:05,880: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-11-24 22:07:05,881: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2019-11-24 22:07:05,882: [master] killing on exit
+[roslaunch][INFO] 2019-11-24 22:07:05,884: process[master]: killing os process with pid[2357] pgid[2357]
+[roslaunch][INFO] 2019-11-24 22:07:05,884: [master] sending SIGINT to pgid [2357]
+[roslaunch][INFO] 2019-11-24 22:07:05,885: [master] sent SIGINT to pgid [2357]
+[roslaunch][INFO] 2019-11-24 22:07:06,088: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-11-24 22:07:06,089: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2019-11-24 22:07:06,090: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2019-11-24 22:07:06,103: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2019-11-24 22:07:06,104: runner.stop()
+[roslaunch][INFO] 2019-11-24 22:07:06,104: shutting down processing monitor...
+[roslaunch][INFO] 2019-11-24 22:07:06,105: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140470529324800)>
+[roslaunch.pmon][INFO] 2019-11-24 22:07:06,106: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140470529324800)>
+[roslaunch][INFO] 2019-11-24 22:07:06,106: ... shutting down processing monitor complete
+[roslaunch][INFO] 2019-11-24 22:07:06,107: done
+[roslaunch.pmon][INFO] 2019-11-24 22:07:06,109: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140470529324800)>
+[rospy.core][INFO] 2019-11-24 22:07:06,109: signal_shutdown [atexit]
