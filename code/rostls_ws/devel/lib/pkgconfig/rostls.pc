@@ -1,0 +1,8 @@
+prefix=/home/vagrant/rostls_ws/devel
+
+Name: rostls
+Description: Description of rostls
+Version: 0.0.0
+Cflags: -I/home/vagrant/rostls_ws/devel/include
+Libs: -L/home/vagrant/rostls_ws/devel/lib 
+Requires: rospy std_msgs message_runtime
